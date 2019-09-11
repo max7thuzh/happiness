@@ -88,7 +88,13 @@ html {
   font-family: inherit;
   color: inherit;
   text-transform: uppercase;
-  background-color: #2196f3;
+  background-color: rgba(32, 148, 243, 0.75);
+
+  transition: background-color 0.2s linear;
+}
+
+.btn:hover {
+  background-color: rgb(32, 148, 243);
 }
 
 .text {
